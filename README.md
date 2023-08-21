@@ -20,25 +20,27 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii
 
 ## Methods
 
-Regression Metric Selection: Linear regresion
-We have also evaluated our model's performance using the Linear regresion
+Regression Metric Selection: Linear regression
 
-Comparing Training vs. Test Performance
-Our analysis of the R-squared values and Linear regraion reveals the following:
+Used to predict or explain the relationship between a dependent variable and one or more independent variables.It assumes a linear connection between these variables, represented by a straight line
 
 Regression Metric Selection: Random Forest with GridSearchCV
-We have also evaluated our model's performance using the Random Forest
 
-Comparing Training vs. Test Performance
-Our analysis of the R-squared values and Linear regraion reveals the following:
+Random Forest with GridSearchCV is a powerful combination of machine learning techniques used for building predictive models. Random Forest is an ensemble algorithm that combines multiple decision trees to make accurate predictions. GridSearchCV is a method for systematically tuning hyperparameters to find the best configuration for a model
 
 
 ## Results
+
+Linear regresion
+Comparing Training vs. Test Performance
 
 The R-squared value for the training data indicates that the model doesnt fit the training data well, capturing 0.67% of the variability.
 The R-squared value for the test data indicates that the model generalizes to new, unseen data with an R-squared value of  -8.45%.
 
 In conclusion, our linear regression model demonstrates a very bad performance in predicting the target variable and is Overfitting. Its ability to generalize to new data indicates that it is overly specialized to the training data (overfitting) and too simplistic (underfitting).
+
+Random Forest with GridSearchCV
+Comparing Training vs. Test Performance
 
 The R-squared value for the training data indicates that the model doesnt fit the training data well, capturing 69% of the variability.
 The R-squared value for the test data indicates that the model generalizes to new, unseen data with an R-squared value of  59%.
