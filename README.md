@@ -1,7 +1,12 @@
-# Title that recommends an action
-## Subtitle describing the analysis 
+# Sales prediction for food items sold at various stores
+## Item sales and the features that impact them
 
 **Author**: Shaun van der Merwe
+
+
+![Alt Text](https://github.com/Shaunnero/Prediction_of_Product-Sales/blob/main/OIP.jpg)
+
+
 
 ### Business problem:
 
