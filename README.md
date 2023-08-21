@@ -51,7 +51,7 @@ However, upon testing the model on unseen data, some nuances emerged. While the 
 
 
 
-#### Visual 1 
+#### Visuals
 ### Insight 1: Overview of the numerical feaures in the data
 
 ![Alt Text](https://github.com/Shaunnero/Prediction_of_Product-Sales/blob/main/Screenshot%202023-08-21%20095517.png)
@@ -65,31 +65,9 @@ We can observe from the analysis that products labeled as 'low-fat' are more rea
 
 ## Model
 
-We evaluated the model's performance using the following metrics:
-------------------------------------------------------------
-**R-squared:**
-------------------------------------------------------------
-  - Training R-squared: 0.67
-  - Test R-squared: -8.45
-The model might be overfitting.
+The final model developed for this project is a Random Forest regression model. This ensemble-based approach combines multiple decision trees to make accurate predictions. Its versatility and ability to handle complex relationships between features make it well-suited for predicting product prices based on various attributes
 
-**Random Forest:**
-------------------------------------------------------------
-**Regression Metrics: Training Data**
-------------------------------------------------------------
-- MAE = 297.581
-- MSE = 184,396.848
-- RMSE = 429.415
-- R² = 0.938
-
-------------------------------------------------------------
-**Regression Metrics: Test Data**
-------------------------------------------------------------
-- MAE = 772.596
-- MSE = 1,241,525.042
-- RMSE = 1,114.237
-- R² = 0.550
-
+In summary, the final Random Forest regression model demonstrates favorable performance metrics on both training and test data. Its ability to minimize errors, provide accurate price predictions, and explain a substantial portion of price variability makes it a valuable tool for solving the business problem of predicting product prices. However, there is still room for improvement, especially in enhancing the model's generalization capabilities to unseen data, which can further enhance its real-world applicability.
 
 ## Recommendations:
 
